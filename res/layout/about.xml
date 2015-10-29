@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+		>
+
+	<TextView android:id="@+id/version_label"
+			  android:layout_marginLeft="5sp"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:text="@string/version"/>
+	<TextView
+			android:layout_marginLeft="5sp"
+			android:layout_marginTop="5sp"
+			android:layout_marginBottom="5sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/send_me_bugs"
+			android:textColor="#0099cc"
+			android:autoLink="all"/>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="EMAIL"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="263dp"
+	    android:layout_height="wrap_content"
+	    android:text=" swar.gitandroid@gmail.com" 
+	    android:textColor="#0099cc"/>
+
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="TEAM"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/textView4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="      S.VISWAJA
+	    P.SRIKANTH
+	    K.SARASWATHI
+	    G.SRAVANTHI"
+	    android:textColor="#0099cc"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
